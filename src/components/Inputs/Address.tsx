@@ -72,7 +72,7 @@ const Address = (
 ) => {
   const { attributes, children } = node;
   const { name, type, label, required, isLeaf, isDecision } = attributes;
-  const filteredCountry = isArray(country) ? country.filter(Boolean) : country;
+  const filteredCountry = useMemo(() => (isArray(country) ? country.filter(Boolean) : country), [country]);
   const autocompleteService = useRef<AutocompleteService>(undefined);
   const [options, setOptions] = useState<readonly unknown[]>([]);
   const [searchText, setSearchText] = useState<string>("");
