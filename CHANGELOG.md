@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.6.3](https://github.com/Tracktor/treege-consumer/compare/2.6.2...2.6.3) (2026-01-13)
+
+
+### Bug Fixes
+
+* infinite rerender address ([657be86](https://github.com/Tracktor/treege-consumer/commit/657be86585f2a11462d98b6bafd40cee06efc3a2))
+
 ## [2.6.2](https://github.com/Tracktor/treege-consumer/compare/2.6.1...2.6.2) (2026-01-09)
 
 
