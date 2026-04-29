@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.8.0](https://github.com/Tracktor/treege-consumer/compare/2.7.0...2.8.0) (2026-04-29)
+
+
+### Features
+
+* add headers prop to TreegeConsumerProvider and use in TreegeConsumer [CI SKIP] ([fae542f](https://github.com/Tracktor/treege-consumer/commit/fae542fecb4ed12b2f7e1addfe86e17cdafb8124))
+
 ## [2.7.0](https://github.com/Tracktor/treege-consumer/compare/2.6.3...2.7.0) (2026-04-29)
 
 
