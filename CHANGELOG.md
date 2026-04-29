@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.7.0](https://github.com/Tracktor/treege-consumer/compare/2.6.3...2.7.0) (2026-04-29)
+
+
+### Features
+
+* add formId prop to TreegeConsumer for external form submission ([0e39aa3](https://github.com/Tracktor/treege-consumer/commit/0e39aa3e2312a91e5f50541e0756a2f5249baa62))
+
 ## [2.6.3](https://github.com/Tracktor/treege-consumer/compare/2.6.2...2.6.3) (2026-01-13)
 
 
