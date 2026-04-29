@@ -112,6 +112,11 @@ export interface TreegeConsumerProps<T = unknown> {
    */
   hiddenFields?: Record<string, undefined | string | string[] | number>;
   /**
+   * Optional id forwarded to the inner <form> element. Allows submitting from
+   * an external <button type="submit" form={formId} /> placed outside the form.
+   */
+  formId?: string;
+  /**
    * Callback fired when the user submits a form.
    * @param data
    * @param formData
@@ -142,6 +147,7 @@ const TreegeComposition = <T,>({
   renderFormValidation,
   hiddenFields,
   localText,
+  formId,
 }: TreegeConsumerProps<T>) => {
   const { fields, handleChangeFormValue, handleSubmit, isLastField, fieldValues, formCanBeSubmit, detailFieldValues } = useTreegeConsumer({
     debug,
@@ -178,7 +184,7 @@ const TreegeComposition = <T,>({
     <ThemeProvider theme={theme || themeProvider.palette.mode}>
       <QueryClientProvider client={queryClient}>
         <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={adapterLocale} localeText={getLocalText(adapterLocale, localText)}>
-          <Box noValidate onSubmit={handleSubmit} component="form" paddingX={15} paddingY={5} style={style}>
+          <Box noValidate id={formId} onSubmit={handleSubmit} component="form" paddingX={15} paddingY={5} style={style}>
             <Stack spacing={4} direction="column" sx={{ "div:first-of-type hr": { display: "none" } }}>
               {fields ? (
                 fields.map((field) => (
@@ -234,6 +240,7 @@ const TreegeConsumer = <T,>({
   renderFormValidation,
   localText,
   hiddenFields,
+  formId,
 }: TreegeConsumerProps<T>) => (
   <OptionsProvider>
     <TreegeComposition
@@ -253,6 +260,7 @@ const TreegeConsumer = <T,>({
       disabledSubmitButton={disabledSubmitButton}
       localText={localText}
       hiddenFields={hiddenFields}
+      formId={formId}
     />
   </OptionsProvider>
 );
