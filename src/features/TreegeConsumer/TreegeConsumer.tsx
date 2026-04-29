@@ -5,11 +5,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Box, CircularProgress, Stack, ThemeOptions, ThemeProvider, useTheme } from "@tracktor/design-system";
 import type { TreeNode } from "@tracktor/types-treege";
 import dayjs from "dayjs";
-import { CSSProperties, ReactNode, useLayoutEffect } from "react";
+import { CSSProperties, ReactNode, useContext, useLayoutEffect } from "react";
 import FormSkeleton from "@/components/Feedback/FormSkeleton/FormSkeleton";
 import FieldFactory from "@/components/FieldFactory";
 import FormValidation, { RenderFormValidationParams } from "@/components/Form/FormValidation";
 import OptionsProvider from "@/context/OptionsProvider";
+import { TreegeConsumerContext } from "@/context/TreegeConsumerProvider";
 import useTreegeConsumer from "@/features/TreegeConsumer/useTreegeConsumer";
 import useOptionsContext from "@/hooks/useOptionsContext";
 import { JsonFormValue } from "@/types/JsonFormValue";
@@ -161,6 +162,7 @@ const TreegeComposition = <T,>({
   const themeProvider = useTheme();
   const queryClient = new QueryClient();
   const optionsContext = useOptionsContext();
+  const treegeConsumerContext = useContext(TreegeConsumerContext);
   const adapterLocale = options?.adapterLocale || optionsContext?.adapterLocale || navigator?.language?.slice(0, 2);
 
   /**
@@ -191,14 +193,14 @@ const TreegeComposition = <T,>({
                   <FieldFactory
                     key={field.uuid}
                     data={field}
-                    detailFieldValues={detailFieldValues}
                     handleChangeFormValue={handleChangeFormValue}
                     readOnly={readOnly}
-                    headers={headers}
-                    fieldValues={fieldValues}
                     isSubmitting={isSubmitting}
                     ignoreFields={ignoreFields}
                     options={options}
+                    detailFieldValues={detailFieldValues}
+                    fieldValues={fieldValues}
+                    headers={headers || treegeConsumerContext.headers}
                   />
                 ))
               ) : (

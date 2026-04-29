@@ -7,6 +7,7 @@ interface TreegeConsumerProviderContext {
   licenseMuiX?: string;
   prefixResponseImageUriAutocomplete?: string;
   adapterLocale?: string;
+  headers?: HeadersInit;
 }
 
 export interface TreegeConsumerProviderProps extends TreegeConsumerProviderContext {
@@ -17,6 +18,7 @@ export const TreegeConsumerContext = createContext<TreegeConsumerProviderContext
   adapterLocale: "",
   countryAutocompleteService: "",
   googleApiKey: "",
+  headers: undefined,
   licenseMuiX: "",
   prefixResponseImageUriAutocomplete: "",
 });
@@ -28,6 +30,7 @@ export const TreegeConsumerProvider = ({
   prefixResponseImageUriAutocomplete,
   googleApiKey,
   adapterLocale,
+  headers,
 }: TreegeConsumerProviderProps) => {
   // Set license key for mui x if provided
   useLayoutEffect(() => {
@@ -41,10 +44,11 @@ export const TreegeConsumerProvider = ({
       adapterLocale,
       countryAutocompleteService,
       googleApiKey,
+      headers,
       licenseMuiX,
       prefixResponseImageUriAutocomplete,
     }),
-    [countryAutocompleteService, googleApiKey, licenseMuiX, prefixResponseImageUriAutocomplete, adapterLocale],
+    [countryAutocompleteService, googleApiKey, headers, licenseMuiX, prefixResponseImageUriAutocomplete, adapterLocale],
   );
 
   return <TreegeConsumerContext.Provider value={value}>{children}</TreegeConsumerContext.Provider>;
