@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.9.0](https://github.com/Tracktor/treege-consumer/compare/2.8.0...2.9.0) (2026-05-11)
+
+
+### Features
+
+* update lodash-es to version 4.18.1 and refactor adaptRouteResponseToOptions to use get for safer property access ([0550be4](https://github.com/Tracktor/treege-consumer/commit/0550be4288b9c3ca7e2c349ffff5c01c5760cab6))
+
 ## [2.8.0](https://github.com/Tracktor/treege-consumer/compare/2.7.0...2.8.0) (2026-04-29)
 
 
