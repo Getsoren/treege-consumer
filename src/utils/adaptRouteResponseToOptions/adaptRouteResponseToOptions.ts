@@ -1,5 +1,6 @@
 import { isObject, isArray } from "@tracktor/react-utils";
 import type { Route } from "@tracktor/types-treege";
+import { get } from "lodash-es";
 
 type Item = {
   id: string;
@@ -25,9 +26,9 @@ const adaptRouteResponseToOptions = (data: unknown, route?: Route): Option[] | u
   // get autoComplete Options
   if (isArray(data)) {
     return data.map((item) => {
-      const mappedLabel = item[String(route?.pathKey?.label)];
-      const mappedValue = route?.pathKey?.value ? item[String(route?.pathKey?.value)] : item;
-      const mappedImage = item[String(route?.pathKey?.image)];
+      const mappedLabel = get(item, String(route?.pathKey?.label));
+      const mappedValue = route?.pathKey?.value ? get(item, String(route?.pathKey?.value)) : item;
+      const mappedImage = get(item, String(route?.pathKey?.image));
 
       return {
         id: item.id,
