@@ -89,7 +89,7 @@ const DateRange = (
             name,
             value: ancestorDates,
           },
-          { validationError: null },
+          { validationError: null } as any,
         );
 
         previousAncestorRef.current = ancestorDates;

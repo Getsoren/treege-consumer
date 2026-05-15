@@ -72,7 +72,7 @@ const TimePicker = (
           name,
           value: dayjs(ancestorValueString, FORMAT).format(FORMAT),
         },
-        { validationError: null },
+        { validationError: null } as any,
       );
       previousAncestorRef.current = ancestorValueString;
     }

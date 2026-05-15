@@ -71,7 +71,7 @@ const DatePicker = (
           value: dayjs(String(ancestorValueString), FORMAT).format(FORMAT), // Ensures consistent date formatting
         },
         // Provide a clean validation state with the update
-        { validationError: null },
+        { validationError: null } as any,
       );
 
       // Update the ref to keep track of the current ancestor value and prevent redundant updates

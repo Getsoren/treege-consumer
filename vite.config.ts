@@ -16,11 +16,11 @@ export default defineConfig({
       external: [...Object.keys(dependencies), ...Object.keys(peerDependencies)],
       output: {
         globals: {
+          "@getsoren/design-system": "ReactDOM",
+          "@getsoren/react-utils": "reactUtils",
           "@mui/x-date-pickers-pro": "xDatePickersPro",
           "@mui/x-license": "muiXLicense",
           "@tanstack/react-query": "reactQuery",
-          "@getsoren/design-system": "ReactDOM",
-          "@getsoren/react-utils": "reactUtils",
           dayjs: "dayjs",
           "lodash-es": "lodashEs",
           react: "React",
