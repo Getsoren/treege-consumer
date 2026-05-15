@@ -1,4 +1,4 @@
-import { Button, Container, Divider, Stack, ThemeProvider } from "@tracktor/design-system";
+import { Button, Container, Divider, Stack, ThemeProvider } from "@getsoren/design-system";
 import basicValuesConsumerExample from "example/data/basicValuesConsumerExample";
 import { useState } from "react";
 import { TreegeViewer } from "@/main";

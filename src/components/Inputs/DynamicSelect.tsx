@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import { Stack, Select as SelectDS, MenuItem, FormHelperText, SelectChangeEvent, FormControl } from "@tracktor/design-system";
-import { isObject, isString } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Stack, Select as SelectDS, MenuItem, FormHelperText, SelectChangeEvent, FormControl } from "@getsoren/design-system";
+import { isObject, isString } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { forwardRef, Ref, useEffect, useRef } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import ChangeEventField from "@/types/ChangeEventField";

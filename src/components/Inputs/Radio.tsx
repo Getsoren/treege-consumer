@@ -1,5 +1,5 @@
-import { Alert, FormControl, FormControlLabel, FormHelperText, Radio as RadioDS, RadioGroup, Stack } from "@tracktor/design-system";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Alert, FormControl, FormControlLabel, FormHelperText, Radio as RadioDS, RadioGroup, Stack } from "@getsoren/design-system";
+import type { TreeNode } from "@getsoren/types-treege";
 import { ChangeEvent, forwardRef, Ref, useEffect, useRef, useState } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import useInputs from "@/hooks/useInputs";

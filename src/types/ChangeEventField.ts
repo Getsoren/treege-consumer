@@ -1,5 +1,5 @@
-import { SelectChangeEvent } from "@tracktor/design-system";
-import type { DefaultValueFromAncestor, TreeNode } from "@tracktor/types-treege";
+import { SelectChangeEvent } from "@getsoren/design-system";
+import type { DefaultValueFromAncestor, TreeNode } from "@getsoren/types-treege";
 import { ChangeEvent, SyntheticEvent } from "react";
 
 export default interface ChangeEventField {

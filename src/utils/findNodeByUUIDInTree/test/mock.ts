@@ -1,4 +1,4 @@
-import type { TreeNode } from "@tracktor/types-treege";
+import type { TreeNode } from "@getsoren/types-treege";
 
 type Mock = { input: TreeNode; output: TreeNode | null; searchName: string };
 

@@ -16,7 +16,7 @@ import {
   InputLabel,
   Select,
   MenuItem,
-} from "@tracktor/design-system";
+} from "@getsoren/design-system";
 import ancestorAdvancedExample from "example/data/ancestorAdvancedExample";
 import ancestorBasicExample from "example/data/ancestorBasicExample";
 import autocompleteExampleWithAncestor from "example/data/autocompleteExampleWithAncestor";

@@ -1,4 +1,4 @@
-import { Box, Button, Slide } from "@tracktor/design-system";
+import { Box, Button, Slide } from "@getsoren/design-system";
 import { ReactNode } from "react";
 
 export interface RenderFormValidationParams {

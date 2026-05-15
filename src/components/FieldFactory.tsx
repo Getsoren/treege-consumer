@@ -1,6 +1,6 @@
-import { Box, Skeleton, Slide } from "@tracktor/design-system";
-import { isString, getObjectValue, isBoolean, isArray } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Box, Skeleton, Slide } from "@getsoren/design-system";
+import { isString, getObjectValue, isBoolean, isArray } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { memo, useCallback, useState } from "react";
 import Address from "@/components/Inputs/Address";
 import ApiAutocomplete from "@/components/Inputs/ApiAutocomplete";

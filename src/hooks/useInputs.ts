@@ -1,4 +1,4 @@
-import type { TreeNode, TreeNodeField } from "@tracktor/types-treege";
+import type { TreeNode, TreeNodeField } from "@getsoren/types-treege";
 
 export interface GetOptionsForDecisionsFieldParams {
   children: TreeNode[];

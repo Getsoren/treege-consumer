@@ -6,9 +6,9 @@ import {
   Stack,
   TextField,
   Typography,
-} from "@tracktor/design-system";
-import { addressToString, isObject, isString, useScript } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+} from "@getsoren/design-system";
+import { addressToString, isObject, isString, useScript } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import parse from "autosuggest-highlight/parse";
 import { isArray, throttle } from "lodash-es";
 import { forwardRef, Ref, SyntheticEvent, useEffect, useMemo, useRef, useState } from "react";

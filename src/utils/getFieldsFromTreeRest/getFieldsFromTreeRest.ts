@@ -1,4 +1,4 @@
-import type { TreeNode } from "@tracktor/types-treege";
+import type { TreeNode } from "@getsoren/types-treege";
 import getFieldsFromTreePoint from "@/utils/getFieldsFromTreePoint/getFieldsFromTreePoint";
 
 const getFieldsFromTreeRest = (childrenTreeRest?: TreeNode["childrenTreeRest"]): TreeNode[] | [] => {

@@ -1,4 +1,4 @@
-import { Stack, File as FileDS } from "@tracktor/design-system";
+import { Stack, File as FileDS } from "@getsoren/design-system";
 import { ChangeEvent, Ref } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import ChangeEventField from "@/types/ChangeEventField";

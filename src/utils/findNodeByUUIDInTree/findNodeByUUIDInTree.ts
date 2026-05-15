@@ -1,4 +1,4 @@
-import type { TreeNode } from "@tracktor/types-treege";
+import type { TreeNode } from "@getsoren/types-treege";
 
 /**
  * Get node by uuid in current tree

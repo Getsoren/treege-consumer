@@ -1,4 +1,4 @@
-import { addressToString } from "@tracktor/react-utils";
+import { addressToString } from "@getsoren/react-utils";
 
 interface ResponseGeocodingAddress {
   description?: string;

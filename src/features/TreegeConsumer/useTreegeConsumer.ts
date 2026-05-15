@@ -1,5 +1,5 @@
-import { getObjectValue, isDeepEqualObject, isObject } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { getObjectValue, isDeepEqualObject, isObject } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { TreegeConsumerProps } from "@/features/TreegeConsumer/TreegeConsumer";
 import ChangeEventField from "@/types/ChangeEventField";

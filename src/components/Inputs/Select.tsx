@@ -1,6 +1,6 @@
-import { Alert, FormControl, FormHelperText, MenuItem, Select as SelectDS, SelectChangeEvent, Stack } from "@tracktor/design-system";
-import { isString } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Alert, FormControl, FormHelperText, MenuItem, Select as SelectDS, SelectChangeEvent, Stack } from "@getsoren/design-system";
+import { isString } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { forwardRef, Ref, useEffect, useRef, useState } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import useInputs from "@/hooks/useInputs";

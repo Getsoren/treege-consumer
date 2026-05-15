@@ -1,4 +1,4 @@
-import { InputLabel as InputLabelDS, Typography } from "@tracktor/design-system";
+import { InputLabel as InputLabelDS, Typography } from "@getsoren/design-system";
 import { PropsWithChildren } from "react";
 
 export interface InputLabelProps extends PropsWithChildren {

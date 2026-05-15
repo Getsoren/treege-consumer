@@ -1,4 +1,4 @@
-import { Divider, Typography } from "@tracktor/design-system";
+import { Divider, Typography } from "@getsoren/design-system";
 
 interface TitleProps {
   label?: string;

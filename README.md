@@ -1,6 +1,4 @@
-# Treege consumer
-
-[![npm version](https://badge.fury.io/js/treege-consumer.svg)](https://badge.fury.io/js/treege-consumer)
+# @getsoren/treege-consumer
 
 **A React library to consume easily form generated from [Treege](https://github.com/Tracktor/treege)**
 
@@ -16,31 +14,31 @@
 
 **npm:**
 ```bash
-npm install treege-consumer
+npm install @getsoren/treege-consumer
 ```
 **bun:**
 ```bash
-bun add treege-consumer
+bun add @getsoren/treege-consumer
 ```
 **yarn**:
 ```bash
-yarn add treege-consumer
+yarn add @getsoren/treege-consumer
 ```
 **pnpm**:
 ```bash
-pnpm add treege-consumer
+pnpm add @getsoren/treege-consumer
 ```
 
 ## Usage
 
 ### Provide tree data
 
-Give `tree data` to `<TreegeForm>` component.  
+Give `tree data` to `<TreegeForm>` component.
 Data can be fetched from your API.
 
 ```typescript jsx
 import tree from "./tree.json";
-import { TreegeConsumer } from "treege-consumer ";
+import { TreegeConsumer } from "@getsoren/treege-consumer";
 
 const App = () => {
   const handleSubmit = (data: [string, FormDataEntryValue][]) => {
@@ -59,7 +57,7 @@ Some options can be provided. For example if you want to use place predictions f
 
 ```typescript jsx
 import tree from "./tree.json";
-import { TreegeConsumer } from "treege-consumer ";
+import { TreegeConsumer } from "@getsoren/treege-consumer";
 
 const App = () => {
   const handleSubmit = (data: [string, FormDataEntryValue][]) => {
@@ -137,7 +135,7 @@ You can provide options to the consumer by using the `TreegeConsumerProvider` pr
 
 ```typescript jsx
 import tree from "./tree.json";
-import { TreegeConsumer, TreegeConsumerProvider } from "treege-consumer ";
+import { TreegeConsumer, TreegeConsumerProvider } from "@getsoren/treege-consumer";
 
 const App = () => {
   const handleSubmit = (data: [string, FormDataEntryValue][]) => {
@@ -158,4 +156,4 @@ export default App;
 ```
 ## Type Definitions
 
-This library uses type definitions from [@tracktor/types-treege](https://www.npmjs.com/package/@tracktor/types-treege)
+This library uses type definitions from [@getsoren/types-treege](https://github.com/getsoren/types-treege)

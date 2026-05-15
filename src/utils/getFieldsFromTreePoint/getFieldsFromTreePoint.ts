@@ -1,4 +1,4 @@
-import type { TreeNode } from "@tracktor/types-treege";
+import type { TreeNode } from "@getsoren/types-treege";
 import { isTreeNode } from "@/types/TypeGuards";
 
 interface GetFieldsFormTreePointParams<T = unknown> {

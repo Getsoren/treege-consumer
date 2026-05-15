@@ -1,5 +1,5 @@
-import { isObject, isArray } from "@tracktor/react-utils";
-import type { Route } from "@tracktor/types-treege";
+import { isObject, isArray } from "@getsoren/react-utils";
+import type { Route } from "@getsoren/types-treege";
 import { get } from "lodash-es";
 
 type Item = {

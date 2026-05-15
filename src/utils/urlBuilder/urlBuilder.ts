@@ -1,5 +1,5 @@
-import { isString } from "@tracktor/react-utils";
-import type { Params } from "@tracktor/types-treege";
+import { isString } from "@getsoren/react-utils";
+import type { Params } from "@getsoren/types-treege";
 import { DetailFieldValues } from "@/types/FieldValues";
 
 interface UrlBuilderParams {

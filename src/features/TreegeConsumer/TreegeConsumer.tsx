@@ -2,8 +2,8 @@ import { LocalizationProvider, PickersInputLocaleText } from "@mui/x-date-picker
 import { AdapterDayjs } from "@mui/x-date-pickers-pro/AdapterDayjs";
 import { LicenseInfo } from "@mui/x-license";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Box, CircularProgress, Stack, ThemeOptions, ThemeProvider, useTheme } from "@tracktor/design-system";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Box, CircularProgress, Stack, ThemeOptions, ThemeProvider, useTheme } from "@getsoren/design-system";
+import type { TreeNode } from "@getsoren/types-treege";
 import dayjs from "dayjs";
 import { CSSProperties, ReactNode, useContext, useLayoutEffect } from "react";
 import FormSkeleton from "@/components/Feedback/FormSkeleton/FormSkeleton";

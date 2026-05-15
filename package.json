@@ -1,5 +1,5 @@
 {
-  "name": "treege-consumer",
+  "name": "@getsoren/treege-consumer",
   "description": "A React library to consume easily form generated from Tree",
   "version": "2.9.0",
   "type": "module",
@@ -9,12 +9,15 @@
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:Tracktor/treege-consumer.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getsoren/treege-consumer.git"
+  },
   "author": "Mickaël Austoni",
   "bugs": {
-    "url": "https://github.com/Tracktor/treege-consumer/issues"
+    "url": "https://github.com/getsoren/treege-consumer/issues"
   },
-  "homepage": "https://github.com/Tracktor/treege-consumer#readme",
+  "homepage": "https://github.com/getsoren/treege-consumer#readme",
   "exports": {
     ".": {
       "import": "./dist/main.js",
@@ -30,14 +33,15 @@
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
-    "example": "vite"
+    "example": "vite",
+    "release": "commit-and-tag-version"
   },
   "dependencies": {
     "@mui/x-date-pickers-pro": "^7.0.0 || ^8.0.0",
     "@mui/x-license": "^7.0.0 || ^8.0.0",
     "@tanstack/react-query": "^4.0.0 || ^5.0.0",
-    "@tracktor/design-system": "^4.0.0",
-    "@tracktor/react-utils": "^1.23.0",
+    "@getsoren/design-system": "^4.0.0",
+    "@getsoren/react-utils": "^1.23.0",
     "autosuggest-highlight": "^3.3.4",
     "dayjs": "^1.0.0",
     "lodash-es": "^4.18.1"
@@ -47,15 +51,15 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
-    "@tracktor/types-treege": "^0.3.14",
+    "@getsoren/types-treege": "^0.3.14",
     "@types/autosuggest-highlight": "^3.2.0",
     "@types/google.maps": "^3.54.3",
     "@types/lodash-es": "^4.17.12",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
-    "commit-and-tag-version": "^12.5.1",
-    "eslint-config-react-tracktor": "^1.10.0",
+    "commit-and-tag-version": "^12.6.0",
+    "@getsoren/eslint-config-react-soren": "^1.14.0",
     "husky": "^8.0.3",
     "jsdom": "^26.1.0",
     "react": "^19.0.0",
@@ -78,8 +82,8 @@
     "@mui/x-date-pickers-pro": "*",
     "@mui/x-license": "*",
     "@tanstack/react-query": ">=5",
-    "@tracktor/design-system": ">=4",
-    "@tracktor/react-utils": ">=1.23.0",
+    "@getsoren/design-system": ">=4",
+    "@getsoren/react-utils": ">=1.23.0",
     "dayjs": ">=1",
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"

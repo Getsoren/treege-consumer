@@ -1,5 +1,5 @@
-import { isArray, isObject } from "@tracktor/react-utils";
-import type { Params } from "@tracktor/types-treege";
+import { isArray, isObject } from "@getsoren/react-utils";
+import type { Params } from "@getsoren/types-treege";
 import dayjs from "dayjs";
 import { DetailFieldValues } from "@/types/FieldValues";
 

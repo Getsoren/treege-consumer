@@ -9,8 +9,8 @@ import {
   SvgIcon,
   Box,
   SxProps,
-} from "@tracktor/design-system";
-import { isObject, isString, useToggle } from "@tracktor/react-utils";
+} from "@getsoren/design-system";
+import { isObject, isString, useToggle } from "@getsoren/react-utils";
 import { CSSProperties, Fragment, ReactElement } from "react";
 import { JsonFormValue } from "@/types/JsonFormValue";
 

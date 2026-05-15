@@ -1,4 +1,4 @@
-import type { Params } from "@tracktor/types-treege";
+import type { Params } from "@getsoren/types-treege";
 import { describe, test, expect } from "vitest";
 import type { DetailFieldValues } from "@/types/FieldValues";
 import paramsBuilder from "@/utils/paramsBuilder/paramsBuilder";

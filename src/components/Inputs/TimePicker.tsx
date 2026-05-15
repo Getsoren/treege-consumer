@@ -1,6 +1,6 @@
 import { PickerChangeHandlerContext, TimePicker as TimePickerMui } from "@mui/x-date-pickers-pro";
-import { Stack } from "@tracktor/design-system";
-import { isString } from "@tracktor/react-utils";
+import { Stack } from "@getsoren/design-system";
+import { isString } from "@getsoren/react-utils";
 import dayjs, { Dayjs } from "dayjs";
 import { forwardRef, Ref, useEffect, useRef } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";

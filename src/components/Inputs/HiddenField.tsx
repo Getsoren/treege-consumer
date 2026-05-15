@@ -1,5 +1,5 @@
-import { TextField } from "@tracktor/design-system";
-import type { TreeNode } from "@tracktor/types-treege";
+import { TextField } from "@getsoren/design-system";
+import type { TreeNode } from "@getsoren/types-treege";
 import { useEffect, useRef } from "react";
 import ChangeEventField from "@/types/ChangeEventField";
 

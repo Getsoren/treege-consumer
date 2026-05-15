@@ -1,6 +1,6 @@
-import { Alert, FormControl, FormControlLabel, FormGroup, FormHelperText, Radio, Stack } from "@tracktor/design-system";
-import { isBoolean } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Alert, FormControl, FormControlLabel, FormGroup, FormHelperText, Radio, Stack } from "@getsoren/design-system";
+import { isBoolean } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { forwardRef, Ref, useEffect, useRef, useState } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import ChangeEventField from "@/types/ChangeEventField";

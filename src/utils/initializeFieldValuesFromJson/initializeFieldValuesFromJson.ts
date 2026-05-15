@@ -1,4 +1,4 @@
-import { isObject } from "@tracktor/react-utils";
+import { isObject } from "@getsoren/react-utils";
 import { FieldValues } from "@/types/FieldValues";
 import { JsonFormValue } from "@/types/JsonFormValue";
 

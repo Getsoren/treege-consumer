@@ -1,4 +1,4 @@
-import type { Route } from "@tracktor/types-treege";
+import type { Route } from "@getsoren/types-treege";
 import { Option } from "@/utils/adaptRouteResponseToOptions/adaptRouteResponseToOptions";
 
 type Mock = {

@@ -1,4 +1,4 @@
-import { Stack, TextField as TextFieldDS } from "@tracktor/design-system";
+import { Stack, TextField as TextFieldDS } from "@getsoren/design-system";
 import { ChangeEvent, FocusEvent, forwardRef, Ref, useEffect, useRef, useState } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import ChangeEventField from "@/types/ChangeEventField";

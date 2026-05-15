@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import { Autocomplete, Avatar, ListItem, ListItemAvatar, ListItemText, Stack, TextField } from "@tracktor/design-system";
-import { getObjectValue, isObject, isString, useDebounce } from "@tracktor/react-utils";
-import type { TreeNode } from "@tracktor/types-treege";
+import { Autocomplete, Avatar, ListItem, ListItemAvatar, ListItemText, Stack, TextField } from "@getsoren/design-system";
+import { getObjectValue, isObject, isString, useDebounce } from "@getsoren/react-utils";
+import type { TreeNode } from "@getsoren/types-treege";
 import { forwardRef, Ref, SyntheticEvent, useState } from "react";
 import InputLabel from "@/components/Inputs/InputLabel";
 import ChangeEventField from "@/types/ChangeEventField";

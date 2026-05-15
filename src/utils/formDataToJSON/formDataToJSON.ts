@@ -1,4 +1,4 @@
-import type { TreeNode } from "@tracktor/types-treege";
+import type { TreeNode } from "@getsoren/types-treege";
 import { FieldValues, FieldValue } from "@/types/FieldValues";
 import { JsonFormValue } from "@/types/JsonFormValue";
 /**
