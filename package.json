@@ -1,7 +1,7 @@
 {
   "name": "@getsoren/treege-consumer",
   "description": "A React library to consume easily form generated from Tree",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "type": "module",
   "types": "dist/main.d.ts",
   "main": "dist/main.umd.cjs",
