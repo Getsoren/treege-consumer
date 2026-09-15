@@ -26,3 +26,4 @@ dist-ssr
 
 # NPM
 .npmrc
+/tsconfig.node.tsbuildinfo
